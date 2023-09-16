@@ -4,7 +4,7 @@ from zipper_creator import make_archive
 label1 = Text('Select file(s) to compress: ')
 
 input_box1 = InputText(tooltip='Please select file(s) to compress.')
-choose_button1 = FileBrowse('Choose', key='files')
+choose_button1 = FilesBrowse('Choose', key='files')
 
 label2 = Text('Select destination folder: ')
 input_box2 = InputText(tooltip='Please select folder to save the compressed files.')
